@@ -5,8 +5,6 @@ TO USE
 Inside the KafkaConstants class insert your custom information. 
 Note that all information listed is needed in order for this program to run successfully.
 
-Inside the CSVProducer class you will need to update the Switch block to match your needs. 
-
 Note that this program formats the information as so: 
 
 The first item in the row will be the object key and the rest of the items in the row will be values inside that object then this whole object will be pushed inside a larger object. 

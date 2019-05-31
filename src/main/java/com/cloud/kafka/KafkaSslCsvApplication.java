@@ -7,10 +7,10 @@ import com.cloud.kafka.constants.KafkaConstants;
 import com.cloud.kafka.csv.CSVProducer;
 
 @SpringBootApplication
-public class KafkaCsvProducerApplication {
+public class KafkaSslCsvApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KafkaCsvProducerApplication.class, args);
+		SpringApplication.run(KafkaSslCsvApplication.class, args);
 		new CSVProducer(KafkaConstants.FILE_LOCATION);
 	}
 

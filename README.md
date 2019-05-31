@@ -12,25 +12,42 @@ The first item in the row will be the object key and the rest of the items in th
 Example: 
 
 Name,Favorite Color, Favorite Animal, Favorite Food
+
 John Doe,Blue,Dog,Pizza,.......
+
 Jane Doe,Green,Sheep,Tacos,.......
+
 
 Will be processed as:
 
 {
+
   "John Doe": {
+  
     "Favorite Color": "Blue",
+    
     "Favorite Animal": "Dog",
+    
     "Favorite Food": "Pizza",
+    
     .......
   },
+  
   "Jane Doe": {
+  
     "Favorite Color": "Green",
+    
     "Favorite Animal": "Sheep",
+    
     "Favorite Food": "Tacos",
+    
     .......
+    
   },
+  
   .......
+  
 }
+
 
 If you wish to reformat it, it will have to be done in the CSVProducer class
